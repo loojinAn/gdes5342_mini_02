@@ -1,0 +1,195 @@
+/* font-family: ode, sans-serif;
+font-style: normal;
+font-weight: 400; */
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+.button {
+	width: 300px;
+	height: 50px;
+	border: solid 2px #3396ff;
+	border-radius: 25px;
+	background-color: #e6f2ff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -250px;
+	margin-left: -150px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.text {
+	font-family: ode, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	color: #3396ff;
+	margin-top: 8px;
+}
+
+.rat {
+	background: url(../images/before01.png);
+	width: 800px;
+	height: 600px;
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-left: -380px;
+}
+
+.pumpkin {
+	background: url(../images/before02.png);
+	width: 800px;
+	height: 600px;
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-left: -380px;
+}
+
+.blueL {
+	background: url(../images/before03.png);
+	width: 800px;
+	height: 600px;
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-left: -380px;
+}
+
+.greenL {
+	background: url(../images/before04.png);
+	width: 800px;
+	height: 600px;
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-left: -380px;
+}
+
+.man {
+	width: 800px;
+	height: 600px;
+	background: url(../images/after01.png);
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -230px;
+	margin-left: -400px;
+	display: none;
+	z-index: 1;
+}
+
+.wagon {
+	width: 800px;
+	height: 600px;
+	background: url(../images/after02.png);
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -230px;
+	margin-left: -400px;
+	display: none;
+}
+
+.blueH {
+	width: 800px;
+	height: 600px;
+	background: url(../images/after03.png);
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -230px;
+	margin-left: -400px;
+	display: none;
+	z-index: 1;
+}
+
+.greenH {
+	width: 800px;
+	height: 600px;
+	background: url(../images/after04.png);
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -230px;
+	margin-left: -400px;
+	display: none;
+}
+
+@keyframes rotate {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
+
+.makeCircle {
+	animation: rotate 1.5s linear;
+}
+
+.makeShadow {
+	animation: rotate 1.5s 0.02s linear;
+}
+
+.spell {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -150px;
+	margin-left: -250px;
+	display: none;
+	z-index: 1;
+}
+
+.shadow {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -150px;
+	margin-left: -250px;
+	display: none;
+}
+
+.dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background: #3396ff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 190px;
+}
+
+.shadowD {
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	background: black;
+	opacity: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 190px;
+}
+
+/* last line */
